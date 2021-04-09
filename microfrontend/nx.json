@@ -1,0 +1,25 @@
+{
+  "npmScope": "microfrontend",
+  "affected": { "defaultBase": "master" },
+  "implicitDependencies": {
+    "package.json": { "dependencies": "*", "devDependencies": "*" },
+    ".eslintrc.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "MjgwNThiZGItNmVmZC00MzRmLWJmNjQtZDVhOWQxZTAyYmNmfHJlYWQtd3JpdGU=",
+        "canTrackAnalytics": false,
+        "showUsageWarnings": true
+      }
+    }
+  },
+  "projects": {
+    "prodcuts": { "tags": [] },
+    "products": { "tags": [] },
+    "product": { "tags": [] },
+    "product-e2e": { "tags": [], "implicitDependencies": ["product"] }
+  }
+}
