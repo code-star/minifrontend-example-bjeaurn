@@ -12,6 +12,6 @@ I think the main selling point and powerful asset that a microfrontend brings is
 In regards to maintainability and extensibility; this is not so clear. The added costs in regards of managing multiple projects, dependency management and updating, separate repositories (or a monorepo with other pros and cons) make it difficult to keep track how all the parts might tie into eachother. There's also a bit of overhead to keep in mind for each project in regards of being able to build and test all parts.
 
 ## Parts not mentioned / to be further examined:
-[] Using multiple paradigms within one app (React / Angular / Vue in one app). Why would you want to do this? What benefits and drawbacks does this have? If there's a good concrete reason why you would want this, that's a good pro for a micro-frontend architecture.
-[] Deployment of micro-frontend parts; do you deploy each separately and tie them together in the runtime?
-[] Complexity of the final build for the project; how do you build all parts, how do you finally deploy?
+- [] Using multiple paradigms within one app (React / Angular / Vue in one app). Why would you want to do this? What benefits and drawbacks does this have? If there's a good concrete reason why you would want this, that's a good pro for a micro-frontend architecture.
+- [] Deployment of micro-frontend parts; do you deploy each separately and tie them together in the runtime?
+- [] Complexity of the final build for the project; how do you build all parts, how do you finally deploy?
